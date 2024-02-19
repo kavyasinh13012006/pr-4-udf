@@ -1,0 +1,23 @@
+<script type="text/javascript">
+    function sk(a,b) {
+       
+         chose =(prompt('+ or - or * or /'));
+
+        switch (chose) {
+            case '+':
+                document.write(`sum ${a} + ${b} = ${a + b}`)
+                break;
+            case '-':
+                document.write(`sum ${a} - ${b} = ${a - b}`)
+                break;
+            case '*':
+                document.write(`sum ${a} * ${b} = ${a * b}`)
+                break;
+            case '/':
+                document.write(`sum ${a} / ${b} = ${a / b}`)
+                break;
+            default: alert("Wrong input");
+        }
+    }
+    sk(10,5);
+</script>
